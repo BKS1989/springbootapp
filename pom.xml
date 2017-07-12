@@ -25,7 +25,6 @@
 	</properties>
 	<scm>
 		<developerConnection>${scm.url}</developerConnection>
-		<tag>{$scm.tag}</tag>
 	</scm>
 	<dependencies>
 		<dependency>
