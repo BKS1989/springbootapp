@@ -68,6 +68,7 @@
         			<version>2.5.3</version>
         			<configuration>
           				<preparationGoals>clean verify</preparationGoals>
+					<localCheckout>true</localCheckout>
         			</configuration>
       			</plugin>
 		</plugins>
