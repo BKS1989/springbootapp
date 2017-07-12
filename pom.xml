@@ -24,7 +24,8 @@
 		<java.version>1.8</java.version>
 	</properties>
 	<scm>
-		<developerConnection>${scm.url}</developerConnection>
+		<developerConnection>${project.scm.url}</developerConnection>
+		<tag>${scm.tag}</tag>
 	</scm>
 	<dependencies>
 		<dependency>
