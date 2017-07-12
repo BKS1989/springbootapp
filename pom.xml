@@ -73,10 +73,7 @@
                 			</dependency>
             			</dependencies>
         			<configuration>
-					<autoVersionSubmodules>false</autoVersionSubmodules>
-					<includes>
-          					<include>pom.xml</include>
-        				</includes>
+					<localCheckout>true</localCheckout>
         			</configuration>
       			</plugin>
 		</plugins>
