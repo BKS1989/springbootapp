@@ -67,6 +67,9 @@
         			<version>2.3.2</version>
         			<configuration>
 					<autoVersionSubmodules>false</autoVersionSubmodules>
+					<includes>
+          					<include>pom.xml</include>
+        				</includes>
         			</configuration>
       			</plugin>
 		</plugins>
