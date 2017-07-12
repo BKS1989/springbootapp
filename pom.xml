@@ -26,7 +26,6 @@
 	</properties>
 	<scm>
 		<developerConnection>scm:git:https://github.com/BKS1989/springbootapp.git</developerConnection>
-		<tag>HEAD</tag>
 	</scm>
 	<dependencies>
 		<dependency>
