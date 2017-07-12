@@ -67,7 +67,7 @@
         			<artifactId>maven-release-plugin</artifactId>
         			<version>2.5.3</version>
         			<configuration>
-					<includes:>pom.xml</include>
+					<includes>pom.xml</includes>
         			</configuration>
       			</plugin>
 		</plugins>
