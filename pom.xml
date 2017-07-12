@@ -74,6 +74,7 @@
             			</dependencies>
         			<configuration>
 					<localCheckout>true</localCheckout>
+					<pomFileName>pom.xml</pomFileName>
         			</configuration>
       			</plugin>
 		</plugins>
