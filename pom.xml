@@ -24,8 +24,8 @@
 		<java.version>1.8</java.version>
 	</properties>
 	<scm>
-		<developerConnection>${project.scm.url}</developerConnection>
-		<tag>${scm.tag}</tag>
+		<developerConnection>scm:git:https://github.com/BKS1989/springbootapp.git</developerConnection>
+		<tag>HEAD</tag>
 	</scm>
 	<dependencies>
 		<dependency>
