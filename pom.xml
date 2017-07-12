@@ -4,7 +4,7 @@
 
 	<groupId>com.parmar.bharat</groupId>
 	<artifactId>nginxPostRequest</artifactId>
-	<version>1.4.24-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>nginxPostRequest</name>
@@ -25,7 +25,7 @@
 	</properties>
 	<scm>
 		<developerConnection>scm:git:https://github.com/BKS1989/springbootapp.git</developerConnection>
-	  <tag>HEAD</tag>
+	  <tag>${project.artifactId}-${project.version}</tag>
   </scm>
 	<dependencies>
 		<dependency>
