@@ -2,6 +2,9 @@ package com.parmar.bharat;
 
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -27,9 +30,13 @@ public class NginxPostRequestApplication {
 	}
 
 	@RequestMapping(method = RequestMethod.GET, value = "/person/{personId}")
-	public Person getPerson(@PathVariable Integer personId) {
+	public Person getPerson(@PathVariable Integer personId, HttpServletRequest request, HttpServletResponse  response) {
+		String personName = request.getHeader("Name");
+		response.setHeader("Name", personName);
 		return personRepo.findOne(personId);
 	}
+	
+
 
 	@RequestMapping(method = RequestMethod.POST, value = "/person")
 	public Person postPerson(@RequestBody Person person) {
