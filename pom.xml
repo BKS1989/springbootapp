@@ -4,7 +4,7 @@
 
 	<groupId>com.parmar.bharat</groupId>
 	<artifactId>nginxPostRequest</artifactId>
-	<version>1.4.80-RELEASE-SNAPSHOT</version>
+	<version>1.4-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>nginxPostRequest</name>
